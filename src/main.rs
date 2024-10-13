@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 mod variables; // Імпорт модуля variables
 
 mod basic_types { // Оголошення модуля basic_types
@@ -152,3 +153,13 @@ fn main() {
 
 
 
+=======
+mod chapter3;
+mod chapter4;
+mod chapter5;
+mod chapter6;
+
+fn main() {
+    println!("Hello, world!");
+}
+>>>>>>> 0c18545a6da0abbe5a32b8d878de93d0ffa3e5e4
