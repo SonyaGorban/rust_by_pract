@@ -21,6 +21,20 @@ mod ownership_borrowing {
 use crate::ownership_borrowing::ownership;
 use crate::ownership_borrowing::reference_borrowing;
 
+mod compound_types{
+    pub mod string;
+    pub mod array;
+    pub mod slice;
+    pub mod tuple;
+    pub mod r#struct;
+
+}
+
+use crate::compound_types::string;
+use crate::compound_types::array;
+use crate::compound_types::slice;
+use crate::compound_types::tuple;
+use crate::compound_types::r#struct;
 
 fn main() {
     // Виклик функцій з модуля variables
@@ -87,6 +101,52 @@ fn main() {
     reference_borrowing::task9();
     reference_borrowing::task10();
     reference_borrowing::task11();
+
+    string::task1();
+    string::task2();
+    string::task3();
+    string::task4();
+    string::task5();
+    string::task6();
+    string::task7();
+    string::task8();
+    string::task9();
+    string::task10();
+    string::task11();
+    string::task12();
+
+
+    array::task1();
+    array::task2();
+    array::task3();
+    array::task4();
+    array::task5();
+    array::task6();
+
+    slice::task1();
+    slice::task2();
+    slice::task3();
+    slice::task4();
+    slice::task5();
+    slice::task6();
+
+    tuple::task1();
+    tuple::task2();
+    tuple::task3();
+    tuple::task4();
+    tuple::task5();
+    tuple::task6();
+
+
+
+    r#struct::task1();
+    r#struct::task2();
+    r#struct::task3();
+    r#struct::task4();
+    r#struct::task5();
+    r#struct::task6();
+    r#struct::task7();
+    r#struct::task8();
 }
 
 
