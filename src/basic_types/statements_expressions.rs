@@ -1,3 +1,4 @@
+#[test]
 pub fn task1(){
 
    // Make it work with two ways
@@ -11,7 +12,7 @@ pub fn task1(){
 
    println!("Success!");
 }
-
+#[test]
 pub fn task2() {
     let v = {
         let x = 3;
@@ -23,7 +24,7 @@ pub fn task2() {
     println!("Success!");
 }
 
-
+#[test]
 pub fn task3(){
 
     let s = sum(1 , 2);

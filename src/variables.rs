@@ -1,5 +1,5 @@
 // variables.rs
-
+#[test]
 pub fn task1() {
     let x: i32 = 5; // Ініціалізована змінна
     let _y: i32;    // Змінна оголошена, але не використовується (нормально, просто попередження)
@@ -8,7 +8,7 @@ pub fn task1() {
     println!("Success!"); // Виводимо повідомлення
 }
 
-
+#[test]
 pub fn task2() {
     let mut x = 1;
     x += 2;
@@ -16,7 +16,7 @@ pub fn task2() {
     assert_eq!(x, 3);
     println!("Success!"); // Виводимо повідомлення
 }
-
+#[test]
 pub fn task3() {
 let x: i32 = 10;
     let y: i32 = 5;
@@ -36,7 +36,7 @@ fn define_x() {
     println!("{}, world", x)
 }
 
-
+#[test]
 pub fn task5(){
 // Only modify `assert_eq!` to make the `println!` work(print `42` in terminal)
 
@@ -68,13 +68,13 @@ pub fn task6(){
     println!("Success!")
 }
 
-
+#[test]
 pub fn task7(){
 let _x = 1;
 // Warning: unused variable: `x`
 }
 
-
+#[test]
 pub fn task8(){
 // Fix the error below with least amount of modification
 
@@ -87,13 +87,13 @@ pub fn task8(){
     println!("Success!")
 }
 
-
-pub fn task9(){
- let (x, y);
-    (x,..) = (3, 4);
-    [.., y] = [1, 2];
+#[test]
+pub fn task9() {
+    let (x, y): (i32, i32);
+    (x, ..) = (3, 4);
+    let [_a, y] = [1, 2];
 
     assert_eq!([x, y], [3, 2]);
 
-    println!("Success!")
+    println!("Success!");
 }

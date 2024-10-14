@@ -1,3 +1,4 @@
+#[test]
 pub fn task1() {
 
 
@@ -15,7 +16,7 @@ fn sum(x: i32, y: i32) -> i32{
 }
 
 
-
+#[test]
 pub fn task2(){
    print();
 }
@@ -29,7 +30,7 @@ fn print() {
 
 use std::thread;
 use std::time::Duration;
-
+#[test]
 pub fn task3() {
     never_return_with_timeout(5); // Зупиниться через 5 секунд
 
@@ -41,7 +42,7 @@ fn never_return_with_timeout(seconds: u64) {
 }
 
 
-
+#[test]
 pub fn task4(){
 
 
@@ -69,7 +70,7 @@ todo!()
 
 
 
-
+#[test]
 pub fn task5() {
     let b = false;
 

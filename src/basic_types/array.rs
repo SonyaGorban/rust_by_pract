@@ -1,3 +1,4 @@
+#[test]
 pub fn task1(){
 
     // Fill the blank with proper array type
@@ -8,6 +9,8 @@ pub fn task1(){
 
     println!("Success!");
 }
+
+#[test]
  pub fn task2(){
 
     // We can ignore parts of the array type or even the whole type, let the compiler infer it for us
@@ -21,6 +24,7 @@ pub fn task1(){
 
     println!("Success!");
 }
+#[test]
  pub fn task3(){
 
 fn main() {
@@ -33,7 +37,7 @@ fn main() {
     println!("Success!");
 }
  }
-
+#[test]
 pub fn task4(){
 
 
@@ -42,6 +46,7 @@ pub fn task4(){
 
     println!("Success!");
 }
+#[test]
  pub fn task5(){
 
 
@@ -53,6 +58,7 @@ pub fn task4(){
 
     println!("Success!");
 }
+#[test]
  pub fn task6(){
 
 // Fix the error

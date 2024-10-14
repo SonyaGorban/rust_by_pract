@@ -1,3 +1,4 @@
+#[test]
 pub fn task1(){
     
 // Fix the error
@@ -15,7 +16,7 @@ struct Person {
 
     println!("Success!");
 } 
-
+#[test]
 pub fn task2() {
     struct Unit;
 
@@ -54,6 +55,7 @@ pub fn task3() {
         assert_eq!(z, 255);
     }
 }
+#[test]
 pub fn task4(){
 
 // Fill the blank and fix the error without adding/removing new line
@@ -93,6 +95,7 @@ pub fn task5() {
         }
     }
 }
+#[test]
 pub fn task6() {
     // Fill the blank to make the code work
     struct User {
@@ -121,6 +124,7 @@ pub fn task6() {
         }
     }
 }
+#[test]
 pub fn task7(){
 
 // Fill the blanks to make the code work
@@ -143,7 +147,7 @@ fn main() {
 }
 
 }
-
+#[test]
 pub fn task8(){
 
 // Fix errors to make it work

@@ -1,3 +1,4 @@
+#[test]
 pub fn task1() {
 
    let x = 5;
@@ -6,7 +7,7 @@ pub fn task1() {
 
    println!("the memory address of x is {:p}", p); // One possible output: 0x16fa3ac84
 }
-
+#[test]
 pub fn task2(){
 
     let x = 5;
@@ -18,7 +19,7 @@ pub fn task2(){
     println!("Success!");
 }
 
-
+#[test]
 pub fn task3() {
 
 // Fix error
@@ -32,7 +33,7 @@ pub fn task3() {
 
 fn borrow_object(s: &String) {}
 
-
+#[test]
 pub fn task4(){
 
 // Fix error
@@ -48,7 +49,7 @@ fn push_str(s: &mut String) {
     s.push_str("world")
 }
 
-
+#[test]
 pub fn task5(){
 
 
@@ -62,7 +63,7 @@ pub fn task5(){
     println!("Success!");
 }
 
-
+#[test]
 pub fn task6() {
 
 
@@ -84,7 +85,7 @@ pub fn task6() {
 fn get_addr(r: &char) -> String {
     format!("{:p}", r)
 }
-
+#[test]
 pub fn task7(){
 
 // Remove something to make it work
@@ -99,7 +100,7 @@ pub fn task7(){
 
     println!("Success!");
 }
-
+#[test]
 pub fn task8(){
 
     // Fix error by modifying this line
@@ -111,7 +112,7 @@ pub fn task8(){
 }
 
 fn borrow_object1(s: &mut String) {}
-
+#[test]
 pub fn task9(){
 
 // This code has no errors!
@@ -127,7 +128,7 @@ pub fn task9(){
 
 fn borrow_object2(s: &String) {}
 
-
+#[test]
 pub fn task10(){
 
 // Comment one line to make it work
@@ -141,7 +142,7 @@ pub fn task10(){
 
     //println!("{}",r1);
 }
-
+#[test]
 pub fn task11(){
 
 

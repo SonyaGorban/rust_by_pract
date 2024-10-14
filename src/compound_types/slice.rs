@@ -1,3 +1,4 @@
+#[test]
 pub fn task1(){
 
     let arr = [1, 2, 3];
@@ -7,6 +8,7 @@ pub fn task1(){
 
     println!("Success!");
 }
+#[test]
  pub fn task2(){
 
     let arr: [char; 3] = ['中', '国', '人'];
@@ -19,6 +21,7 @@ pub fn task1(){
 
     println!("Success!");
 }
+#[test]
  pub fn task3(){
 
     let arr: [i32; 5] = [1, 2, 3, 4, 5];
@@ -28,7 +31,7 @@ pub fn task1(){
 
     println!("Success!");
 }
-
+#[test]
 pub fn task4(){
 
     let s = String::from("hello");
@@ -41,7 +44,7 @@ pub fn task4(){
 
     println!("Success!");
 }
-
+#[test]
 pub fn task5(){
 
 
@@ -53,6 +56,7 @@ pub fn task5(){
 
     println!("Success!");
 }
+#[test]
  pub fn task6(){
 
 // Fix errors

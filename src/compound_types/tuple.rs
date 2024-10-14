@@ -1,3 +1,4 @@
+#[test]
 pub fn task1(){
 
     let _t0: (u8,i16) = (0, -1);
@@ -8,6 +9,7 @@ pub fn task1(){
 
     println!("Success!");
 }
+#[test]
  pub fn task2(){
 
 // Make it work
@@ -17,13 +19,14 @@ pub fn task1(){
 
     println!("Success!");
 }
+#[test]
  pub fn task3(){
 
 // Fix the error
     let too_long_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
     println!("too long tuple: {:?}", too_long_tuple);
 }
-
+#[test]
 pub fn task4(){
 
     let tup:(i32,f64,&str) = (1, 6.4, "hello");
@@ -37,6 +40,7 @@ pub fn task4(){
 
     println!("Success!");
 }
+#[test]
  pub fn task5(){
 
     let (x, y, z);
@@ -49,7 +53,7 @@ pub fn task4(){
 
     println!("Success!");
 }
-
+#[test]
 pub fn task6(){
 
     // Fill the blank, need a few computations here.

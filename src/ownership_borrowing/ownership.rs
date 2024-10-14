@@ -1,5 +1,5 @@
 use std::ffi::CString;
-
+#[test]
 pub fn task1(){
 
     // Use as many approaches as you can to make it work
@@ -9,7 +9,7 @@ pub fn task1(){
 }
 
 
-
+#[test]
 pub fn task2(){
 // Don't modify code in main!
 
@@ -25,7 +25,7 @@ fn take_ownership(s: String)-> String{
     s
 }
 
-
+#[test]
 
 pub fn task3(){
 
@@ -43,7 +43,7 @@ fn give_ownership() -> String {
 
 
 
-
+#[test]
 pub fn task4(){
 // Fix the error without removing any code
     let s = String::from("Hello World");
@@ -57,7 +57,7 @@ fn print_str(s: String)  {
     println!("{}",s)
 }
 
-
+#[test]
 pub fn task5(){
 // Don't use clone ,use copy instead
 
@@ -66,7 +66,7 @@ pub fn task5(){
     println!("{:?}, {:?}", x, y);
 }
 
-
+#[test]
 pub fn task6(){
 
 // make the necessary variable mutable
@@ -80,7 +80,7 @@ pub fn task6(){
     println!("Success!");
 }
 
-
+#[test]
 pub fn task7(){
 
     let x = Box::new(5);
@@ -95,7 +95,7 @@ pub fn task7(){
 }
 
 
-
+#[test]
 pub fn task8(){
 
 
@@ -108,7 +108,7 @@ pub fn task8(){
 }
 
 
-
+#[test]
 pub fn task9(){
 
 

@@ -1,9 +1,11 @@
+#[test]
 pub fn task1() {
 
     let s: &str = "hello, world";
 
     println!("Success!");
 }
+#[test]
 pub fn task2(){
 
     let s: Box<str> = "hello, world".into();
@@ -13,6 +15,7 @@ fn greetings(s: &str) {
     println!("{}",s)
 }
 }
+#[test]
  pub fn task3(){
 
     let mut s = String::from("");
@@ -23,6 +26,7 @@ fn greetings(s: &str) {
 
     println!("Success!");
 }
+#[test]
  pub fn task4(){
 
 // Fix all errors without adding newline
@@ -33,6 +37,7 @@ fn greetings(s: &str) {
 
     println!("{}", s);
 }
+#[test]
  pub fn task5(){
 
 // Fill the blank
@@ -45,6 +50,7 @@ fn greetings(s: &str) {
 
     println!("Success!");
 }
+#[test]
   pub fn task6(){
 
 // Fix errors without removing any line
@@ -56,7 +62,7 @@ fn main() {
     println!("{}", s3);
 }
   }
-
+#[test]
 pub fn task7(){
 
 // Fix error with at least two solutions
@@ -67,6 +73,7 @@ pub fn task7(){
 fn greetings(s: &str) {
     println!("{}", s)
 }
+#[test]
 pub fn task8(){
 
 // Use two approaches to fix the error and without adding a new line
@@ -77,6 +84,7 @@ fn main() {
     println!("Success!");
 }
 }
+#[test]
 pub fn task9(){
 
     // You can use escapes to write bytes by their hexadecimal values
@@ -97,6 +105,7 @@ pub fn task9(){
                          can be escaped too!";
     println!("{}", long_string);
 }
+#[test]
 pub fn task10() {
     /* Fill in the blank and fix the errors */
 
@@ -118,7 +127,7 @@ pub fn task10() {
 
     println!("Success!");
 }
-
+#[test]
 pub fn task11(){
 
     let s1 = String::from("hi,中国");
@@ -130,6 +139,7 @@ pub fn task11(){
 
     println!("Success!");
 }
+#[test]
  pub fn task12(){
 
 

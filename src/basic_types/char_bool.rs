@@ -1,3 +1,4 @@
+#[test]
 pub fn task1() {
 
 // Make it work
@@ -11,7 +12,7 @@ use std::mem::size_of_val;
 
     println!("Success!");
 }
-
+#[test]
 pub fn task2() {
 
 // Make it work
@@ -24,7 +25,7 @@ fn print_char(c : char) {
     println!("{}", c);
 }
 
-
+#[test]
 pub fn task3() {
 
 // Make println! work
@@ -37,7 +38,7 @@ pub fn task3() {
     }
 }
 
-
+#[test]
 pub fn task4() {
 
 
@@ -49,7 +50,7 @@ pub fn task4() {
     println!("Success!");
 }
 
-
+#[test]
 pub fn task5() {
 
 // Make it work, don't modify `implicitly_ret_unit` !
@@ -72,7 +73,7 @@ fn explicitly_ret_unit() -> () {
 }
 
 
-
+#[test]
 pub fn task6() {
 
 // Modify `4` in assert to make it work

@@ -1,3 +1,4 @@
+#[test]
 pub fn task1() {
 
 // Remove something to make it work
@@ -11,6 +12,7 @@ pub fn task1() {
 
     println!("Success!");
 }
+#[test]
 pub fn task2() {
 
 // Fill the blank
@@ -19,7 +21,7 @@ pub fn task2() {
 
     println!("Success!");
 }
-
+#[test]
 pub fn task3() {
 
 // Modify `assert_eq!` to make it work
@@ -33,7 +35,7 @@ pub fn task3() {
 fn type_of<T>(_: &T) -> String {
     format!("{}", std::any::type_name::<T>())
 }
-
+#[test]
 pub fn task4() {
 
 // Fill the blanks to make it work
@@ -43,7 +45,7 @@ pub fn task4() {
 
     println!("Success!");
 }
-
+#[test]
 pub fn task5() {
 
 // Fix errors and panics to make it work
@@ -62,7 +64,7 @@ pub fn task6() {
 
     println!("Success!");
 }
-
+#[test]
 pub fn task7() {
 
 // Fill the blank to make it work
@@ -79,7 +81,7 @@ fn type_of_variable<T>(_: &T) -> String {
     format!("{}", std::any::type_name::<T>())
 }
 
-
+#[test]
 pub fn task8() {
 
     assert!(0.1_f32 +0.2_f32==0.3_f32);
@@ -91,7 +93,7 @@ pub fn task8() {
 
     println!("Success!");
 }
-
+#[test]
 pub fn task9() {
 //Two goals: 1. Modify assert! to make it work 2. Make println! output: 97 - 122
     let mut sum = 0;
@@ -105,7 +107,7 @@ pub fn task9() {
         println!("{}",c as u8);
     }
 }
-
+#[test]
 pub fn task10() {
 
 // Fill the blanks
@@ -115,7 +117,7 @@ use std::ops::{Range, RangeInclusive};
 
     println!("Success!");
 }
-
+#[test]
 pub fn task11() {
 
 // Fill the blanks and fix the errors
