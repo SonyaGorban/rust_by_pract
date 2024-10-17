@@ -1,5 +1,7 @@
 
 pub mod variables;
+mod flow_control;
+
 mod basic_types {
     pub mod array;
     pub mod numbers;
@@ -13,6 +15,7 @@ mod compound_types {
     pub mod string;
     pub mod tuple;
     pub mod struct1;
+    pub mod enum1;
 
 
 }
@@ -20,6 +23,9 @@ mod compound_types {
 mod ownership_borrowing{
     pub mod ownership;
     pub mod reference_borrowing;
+
+
+
 }
 fn main(){
 
