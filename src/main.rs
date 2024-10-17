@@ -20,13 +20,11 @@ mod compound_types {
 
 }
 
-mod ownership_borrowing{
+mod ownership_borrowing {
     pub mod ownership;
     pub mod reference_borrowing;
-
-
-
 }
-fn main(){
-
+mod pattern_match{
+    pub mod match1;
+    pub mod patterns1;
 }
