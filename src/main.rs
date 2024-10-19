@@ -28,3 +28,5 @@ mod pattern_match{
     pub mod match1;
     pub mod patterns1;
 }
+
+fn main() {}
