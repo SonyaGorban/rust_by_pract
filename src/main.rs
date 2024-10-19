@@ -1,6 +1,7 @@
 
 pub mod variables;
 mod flow_control;
+mod method;
 
 mod basic_types {
     pub mod array;
