@@ -30,4 +30,8 @@ mod pattern_match{
     pub mod patterns1;
 }
 
+mod generics_traits{
+   pub mod generics;
+
+}
 fn main() {}
