@@ -33,6 +33,7 @@ mod pattern_match{
 mod generics_traits{
    pub mod generics;
     pub mod const_generics;
+    pub mod traits;
 
 }
 fn main() {}
