@@ -34,6 +34,13 @@ mod generics_traits{
    pub mod generics;
     pub mod const_generics;
     pub mod traits;
+     pub mod trait_object;
+    pub mod advanced_traits;
+
+}
+
+mod collection_types{
+    pub mod string;
 
 }
 fn main() {}
