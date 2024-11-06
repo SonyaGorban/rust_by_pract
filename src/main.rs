@@ -41,6 +41,8 @@ mod generics_traits{
 
 mod collection_types{
     pub mod string;
+    pub mod vector;
+    pub mod hashmap;
 
 }
 fn main() {}
